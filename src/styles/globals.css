@@ -105,3 +105,26 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.rectangle {
+  display: inline-block;
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.rectangle-selected {
+  display: inline-block;
+  border: 1px solid white;
+  height: 50px;
+  width: 50px;
+  background: blue;
+  cursor: pointer;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
